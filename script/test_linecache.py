@@ -5,7 +5,7 @@ file_name = "data/amzn-anon-access-samples/amzn-anon-access-samples-2.0.csv"
 
 
 # ファイルの5行目だけを読み込む
-a = 20000
+a = 10
 target_line = linecache.getline(file_name, int(a))
 print(target_line)
 
